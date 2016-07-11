@@ -13,3 +13,11 @@ Steps on Gephi:
 5. Go to preview and set your prefered options. 
 *Be aware with Edges thickness, because of the variance of the weigths I had to use Thickness = 5.0E-9
 6. Export pdf or png 
+
+*Extra steps for geocoded nodes.
+1. I already uploaded the same nodes database including two new columns: latitude and longitude for each country.
+On Gephi:
+2. Import new spreadsheet. In the Import spreadsheet window (import seetings, where you have to specify the type for each variable) you HAVE to select "Double" for latitude and longitude variables.
+3. You have to download two layout plugins: "Geo Layout" and "Map of countries". To do that, go to Tools -- Plugins and then install them. This step will add two new layouts.
+4. Go to Layout window, select Geo Layout and then match each variable: latitude and longitude and Run it. Then, voilà.
+5. Go to Layout window, select Map of countries if you want a worldmap as background.
